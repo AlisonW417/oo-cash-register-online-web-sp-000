@@ -32,7 +32,7 @@ class CashRegister
   end 
   
   def items 
-    @@items
+    @@items.uniq
   end 
   
 end 
