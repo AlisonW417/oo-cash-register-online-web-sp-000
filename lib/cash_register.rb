@@ -22,6 +22,8 @@ class CashRegister
   def apply_discount
     @total -= @total * @discount / 100 
     
+    "There is no discount to apply."
+    
   end 
   
 end 
