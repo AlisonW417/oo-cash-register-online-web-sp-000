@@ -29,8 +29,7 @@ class CashRegister
   end 
   
   def items 
-    items = []
-    items << self 
+    
   end 
   
 end 
